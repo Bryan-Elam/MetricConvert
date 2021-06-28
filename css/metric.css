@@ -26,5 +26,20 @@ fieldset {
     flex-direction: column;
     max-width: max-content;
     align-self: center;
+    padding: 2em;
+    margin: 2em;
 }
 
+button {
+    background-color: teal;
+    color: white;
+    margin-top: 2em;
+
+}
+
+button:hover {
+    transition-duration: .4s;
+    padding: 3em;
+    background-color:skyblue;
+
+}
