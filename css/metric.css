@@ -4,8 +4,8 @@
 
 h1 {
     font-family:Georgia, 'Times New Roman', Times, serif;
-    background-color: skyblue;
-    color: black;
+    background-color: rgb(68, 79, 176);
+    color: white;
     display: flex;
     flex-direction: row;
     align-self: center;
@@ -39,7 +39,7 @@ button {
 
 button:hover {
     transition-duration: .4s;
-    padding: 3em;
+    padding: 1.25em;
     background-color:skyblue;
 
 }

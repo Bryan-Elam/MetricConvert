@@ -1,34 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Metric Conversion</title>
     <link rel="stylesheet" href="css/metric.css" type="text/css"/>
+    
 </head>
 <body>
  
      
     
-    <form action="index.html" method="POST">
+    <form action="index.html" method="GET">
         <h1>Metric Conversions</h1>
+
+        <!--fieldset for distance-->
         <fieldset id="distance">
             <legend>Distance Conversion</legend>
 
-        <label for="miles">Miles:</label>
-        <input type="text" id="miles" name="miles">
+        
         
         <label for="naut">Nautical Miles:</label>
         <input type="text" id="naut" name="nauticmiles">
        
-        <label for="kilo">Kilometers:</label>
-        <input type="text" id="kilo" name="kilometer">
+        <label for="miles">Miles:</label>
+        <input type="text" id="miles" name="miles">
 
         <button type="submit">Convert</button>
   
             </fieldset>
-    <!--- form for tempurature inputs--> 
+    <!--- fieldset for tempurature inputs--> 
 
 
       
@@ -36,14 +38,17 @@
 
         <fieldset id="temp">
             <legend>Temperature Conversion</legend>
+        
+        
+        <label for="celsius">Celsius:</label>
+        <input type="text" id="celsius" name="celsius">
+
         <label for="farenheit">Farenheit</label>
         <input type="text" id="farenheit" name="faren">
-        
-        <label for="celcius">Celsius:</label>
-        <input type="text" id="celcius" name="celsius">
 
-        <button type="submit">Convert</button>
+        <button id="temperature" type="submit">Convert</button>
         </fieldset>  
     </form>
+    <script src="js/metric.js" charset="UTF-8"></script>
 </body>
 </html>
