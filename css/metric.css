@@ -52,7 +52,7 @@ button:hover {
 
 }
 
-@media  (min-width: 400px){
+@media  (min-width: 740px){
         form {
             flex-direction: row;
         }
