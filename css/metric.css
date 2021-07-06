@@ -21,6 +21,10 @@ form {
  
 }
 
+#naut, #miles, #celsius, #fahrenheit {
+    padding: 1em;
+}
+
 fieldset {
     display: flex;
     flex-direction: column;
@@ -45,5 +49,13 @@ button:hover {
     transition-duration: .4s;
     padding: 1.25em;
     background-color:skyblue;
+
+}
+
+@media  (min-width: 400px){
+        form {
+            flex-direction: row;
+        }
+
 
 }
