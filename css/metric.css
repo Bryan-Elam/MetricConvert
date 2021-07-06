@@ -24,6 +24,7 @@ form {
 fieldset {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     max-width: max-content;
     align-self: center;
     padding: 2em;
@@ -33,7 +34,10 @@ fieldset {
 button {
     background-color: teal;
     color: white;
+    padding: 1.25em;
     margin-top: 2em;
+    margin-bottom: 1rem;
+    
 
 }
 
